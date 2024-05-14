@@ -11,7 +11,7 @@ make run
 It will compile a file called target and then run it with the input file of main.afrl that is in the main directory.
 
 ## Example
-'''
+```
 fun fib(n)
 {
   as(n <= 2) terug n;
@@ -21,7 +21,7 @@ fun fib(n)
 lat begin = klok();
 vertoon fib(35);
 vertoon klok() - begin;
-'''
+```
 
 This is an implementation of the known fib function which finds the 35th fibonacci number.
 
